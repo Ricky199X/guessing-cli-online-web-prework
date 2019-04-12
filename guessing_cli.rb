@@ -13,7 +13,7 @@ def run_guessing_game
         puts "You guessed the correct number!"
 
       else user_input.to_i != computer_guess
-        puts "The computer guessed #{computer_guess}"
+        puts "The computer guessed #{computer_guess}."
     end
   end
 end
