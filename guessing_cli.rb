@@ -1,5 +1,5 @@
 def run_guessing_game
-  user_input = 0
+  user_input = ""
   computer_guess = rand(1...6)
 
     puts "Guess a number between 1 and 6."
